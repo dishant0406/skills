@@ -1,0 +1,32 @@
+# Inbox Workflow
+
+Use this file while handling notifications or mentions.
+
+## Per-thread flow
+
+1. Open the notification.
+2. Read the original post and the new reply together.
+3. Check whether the user's account has already responded in that branch.
+4. Decide whether the thread genuinely needs a reply.
+5. Draft the response before touching the reply box.
+6. Post only after the draft is thread-specific and concise.
+7. Return to the notifications list.
+
+## What counts as reply-worthy
+
+- A direct question
+- A thoughtful reaction that benefits from acknowledgment
+- A useful correction or challenge worth answering
+- A warm response that keeps a real conversation moving
+
+## What does not
+
+- Empty praise with nothing to add
+- Low-effort bait
+- Obvious spam
+- Duplicate notifications for the same thread
+
+## Speed rule
+
+Do not batch-compose multiple replies at once.
+Finish the current thread, then move to the next one.
