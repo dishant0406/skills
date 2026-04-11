@@ -4,7 +4,8 @@ Use this file when drafting the actual comment.
 
 ## Default shape
 
-- CRITICAL: 1 or 2 short sentences
+- CRITICAL NON-NEGOTIABLE: 1 or 2 short sentences
+- CRITICAL NON-NEGOTIABLE: never avoid, relax, or reinterpret this limit unless the user explicitly asks for longer comments
 - First person
 - Add one clear reaction, question, or observation
 

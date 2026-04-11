@@ -30,3 +30,5 @@ Use this file while handling notifications or mentions.
 
 Do not batch-compose multiple replies at once.
 Finish the current thread, then move to the next one.
+CRITICAL NON-NEGOTIABLE: use strict sequence for every item: open thread -> read context -> verify unreplied -> decide -> draft -> post or skip -> return to notifications.
+CRITICAL NON-NEGOTIABLE: never hop between multiple open threads.

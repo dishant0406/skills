@@ -21,12 +21,16 @@ Do not use this skill to evade platform enforcement, fake human browsing pattern
 By default, use the home feed to discover posts. Do not use the X search bar unless the user explicitly tells you to.
 CRITICAL: never find posts by searching when sourcing comments for this skill. Scroll the feed until you find relevant posts.
 CRITICAL: do not refresh the feed in between comments while working toward `N` unless X is broken and the user explicitly wants that fallback.
+CRITICAL: do not open post URLs directly. Always click the post card from the feed to open it.
+CRITICAL: before selecting the first candidate, perform an initial scroll pass and inspect multiple screenfuls of feed content.
+CRITICAL: avoid consecutive comments on near-identical posts from the same narrow topic cluster when other relevant topics are available.
 
 ## Comment standard
 
 - One post at a time
 - Use first person
-- CRITICAL: keep every comment to 1 or 2 short sentences. Do not avoid, relax, or override this unless the user explicitly asks for longer comments.
+- CRITICAL NON-NEGOTIABLE: keep every comment to 1 or 2 short sentences.
+- CRITICAL NON-NEGOTIABLE: never avoid, relax, or reinterpret this limit unless the user explicitly asks for longer comments.
 - Stay on the thread topic only
 - Slightly playful or provocative is fine if it still sounds friendly
 - No forced product mentions
@@ -38,15 +42,18 @@ CRITICAL: do not refresh the feed in between comments while working toward `N` u
 2. Scroll and inspect candidates one by one.
    - Content quality matters more than popularity.
    - Prefer posts that say something specific enough to answer.
+   - Do not stop at the first few visible posts; keep scrolling before deciding on each next candidate.
    - Read [references/feed-workflow.md](references/feed-workflow.md).
 3. For each chosen post:
-   - Open the post
+   - Open the post by clicking it in the feed (never by typing/pasting a URL)
    - Read the post and enough surrounding context to understand the thread
    - Decide on one comment before typing
    - If the `twitter-humanizer` skill is available, use it to refine the comment without making it longer
    - Read [references/comment-rules.md](references/comment-rules.md).
    - Post the comment
-   - Return to the feed, scroll more, then find the next candidate
+   - Return to the feed using back navigation
+   - Scroll more, then find the next candidate
+   - Do not jump between multiple open posts; complete one full post cycle before opening another
 4. Repeat until `N` comments are posted or the feed stops yielding good candidates.
 5. Close every `x.com` tab opened during the run.
 

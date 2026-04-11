@@ -52,10 +52,14 @@ If the user did not provide a topic, ask for one.
 
 - Sound like a person with an opinion, not a scheduler.
 - Prefer one sharp point over a list of points.
-- CRITICAL: keep the tweet to 1 or 2 short sentences. Do not avoid, relax, or override this unless the user explicitly asks for a longer format.
+- CRITICAL NON-NEGOTIABLE: keep the tweet to 1 or 2 short sentences.
+- CRITICAL NON-NEGOTIABLE: never avoid, relax, or reinterpret this limit unless the user explicitly asks for a longer format.
 - Avoid generic hype, marketing filler, or copy that reads AI-generated.
 - Do not force a product mention unless the user asked for it.
 - If the topic has weak evidence or conflicting reports, say less and keep the post safer.
+
+CRITICAL NON-NEGOTIABLE: do not jump between drafting and multiple open threads.
+CRITICAL NON-NEGOTIABLE: finish the context pass, then compose, then publish in that order.
 
 ## Completion report
 

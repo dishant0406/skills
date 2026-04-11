@@ -19,7 +19,8 @@ If the user did not specify a count limit, process up to 5 suitable reply opport
 - Reply only where the account has not already replied in the same thread
 - Stay on the thread topic only
 - Use first person
-- CRITICAL: keep every reply to 1 or 2 short sentences. Do not avoid, relax, or override this unless the user explicitly asks for longer replies.
+- CRITICAL NON-NEGOTIABLE: keep every reply to 1 or 2 short sentences.
+- CRITICAL NON-NEGOTIABLE: never avoid, relax, or reinterpret this limit unless the user explicitly asks for longer replies.
 - Do not force product mentions or links unless the user asked for them
 
 ## Workflow
@@ -37,6 +38,9 @@ If the user did not specify a count limit, process up to 5 suitable reply opport
 4. Post the reply.
 5. Return to notifications and continue until the cap is reached or there are no more good candidates.
 6. Close every `x.com` tab opened during the run.
+
+CRITICAL NON-NEGOTIABLE: do not jump across multiple threads in parallel.
+CRITICAL NON-NEGOTIABLE: finish one full thread cycle (open -> read -> decide -> draft -> post or skip -> return) before opening the next thread.
 
 ## Skip conditions
 

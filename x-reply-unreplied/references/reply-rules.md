@@ -26,6 +26,6 @@ Use this file when shaping the actual response.
 
 ## Length
 
-CRITICAL: default to 1 or 2 short sentences.
-Do not avoid or relax this limit unless the user explicitly asked for deeper replies.
+CRITICAL NON-NEGOTIABLE: default to 1 or 2 short sentences.
+CRITICAL NON-NEGOTIABLE: never avoid, relax, or reinterpret this limit unless the user explicitly asked for deeper replies.
 Only go longer if the user explicitly asked for deeper replies.

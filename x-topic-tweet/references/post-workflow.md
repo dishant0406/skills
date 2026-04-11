@@ -31,3 +31,6 @@ It is not for detection evasion or pretending the agent is a human operator.
 
 - CRITICAL: do not tweet immediately after opening X.
 - CRITICAL: first scroll the feed, open a few relevant posts, return, and only then compose the tweet.
+- CRITICAL NON-NEGOTIABLE: never skip this context pass unless the user explicitly asks to skip it.
+- CRITICAL NON-NEGOTIABLE: use strict sequence: open X -> context pass -> return -> compose -> publish -> verify.
+- CRITICAL NON-NEGOTIABLE: do not hop across multiple open posts while composing.
