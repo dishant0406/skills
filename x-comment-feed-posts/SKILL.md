@@ -19,8 +19,10 @@ If the user does not provide `N`, ask for it.
 
 Do not use this skill to evade platform enforcement, fake human browsing patterns, or mass-engage indiscriminately.
 By default, use the home feed to discover posts. Do not use the X search bar unless the user explicitly tells you to.
-CRITICAL: never find posts by searching when sourcing comments for this skill. Scroll the feed until you find relevant posts.
-CRITICAL: do not refresh the feed in between comments while working toward `N` unless X is broken and the user explicitly wants that fallback.
+CRITICAL NON-NEGOTIABLE: never find posts by searching when sourcing comments for this skill.
+CRITICAL NON-NEGOTIABLE: always use the For You tab on the home feed. Never switch to Following or any other tab.
+CRITICAL NON-NEGOTIABLE: once on the X feed, never refresh or reload the page for any reason for the entire run. Return between posts using back navigation only.
+CRITICAL NON-NEGOTIABLE: close the x.com tab immediately after the run is complete. Never leave it open.
 CRITICAL: do not open post URLs directly. Always click the post card from the feed to open it.
 CRITICAL: before selecting the first candidate, perform an initial scroll pass and inspect multiple screenfuls of feed content.
 CRITICAL: avoid consecutive comments on near-identical posts from the same narrow topic cluster when other relevant topics are available.
@@ -38,7 +40,7 @@ CRITICAL: avoid consecutive comments on near-identical posts from the same narro
 
 ## Workflow
 
-1. Open X and start from the feed.
+1. Open X, go to the home feed, and select the **For You** tab.
 2. Scroll and inspect candidates one by one.
    - Content quality matters more than popularity.
    - Prefer posts that say something specific enough to answer.
@@ -55,7 +57,7 @@ CRITICAL: avoid consecutive comments on near-identical posts from the same narro
    - Scroll more, then find the next candidate
    - Do not jump between multiple open posts; complete one full post cycle before opening another
 4. Repeat until `N` comments are posted or the feed stops yielding good candidates.
-5. Close every `x.com` tab opened during the run.
+5. CRITICAL NON-NEGOTIABLE: close every `x.com` tab immediately after the run is complete. Do not leave any tab open.
 
 ## If the feed is weak
 

@@ -32,10 +32,12 @@ If the user did not provide a topic, ask for one.
    - If the `twitter-humanizer` skill is available, use it to turn the notes into 2 or 3 short candidate tweets in the user's voice.
    - Pick one final tweet. Do not copy wording from source posts.
    - If the topic is time-sensitive, make sure the draft names the right product, company, or date.
-3. Open X only after the draft is ready.
+3. Open X only after the draft is ready using the openclaw managed chrome.
 4. Do a brief context pass on X.
-   - Land on the home feed or the user's profile first.
-   - Scroll the feed first, open a few relevant posts or threads, and then return.
+   - Land on the home feed and select the **For You** tab.
+   - CRITICAL NON-NEGOTIABLE: always use the For You tab. Never use Following or any other tab.
+   - CRITICAL NON-NEGOTIABLE: once on the feed, never refresh or reload the page for any reason. Use back navigation only if you open any posts during the context pass.
+   - Scroll the feed first, open a few relevant posts or threads one by one, then return.
    - Read a few posts or one relevant thread so the post fits the current conversation.
    - Do not rush straight to compose unless the user explicitly asked for speed over context.
    - Read [references/post-workflow.md](references/post-workflow.md).
@@ -46,7 +48,7 @@ If the user did not provide a topic, ask for one.
 6. Verify the post published correctly.
    - Confirm the final text matches the draft.
    - If a link was included, confirm it rendered properly.
-7. Close every `x.com` tab opened during the run.
+7. CRITICAL NON-NEGOTIABLE: close every `x.com` tab immediately after the run is complete. Do not leave any tab open.
 
 ## Quality bar
 

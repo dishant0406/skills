@@ -5,13 +5,16 @@ Use this file while handling notifications or mentions.
 ## Per-thread flow
 
 1. Open the openclaw managed chrome.
-2. Open the notification.
-3. Read the original post and the new reply together.
-4. Check whether the user's account has already responded in that branch.
-5. Decide whether the thread genuinely needs a reply.
-6. Draft the response before touching the reply box.
-7. Post only after the draft is thread-specific and concise.
-8. Return to the notifications list.
+2. Navigate to `x.com` notifications.
+3. CRITICAL NON-NEGOTIABLE: never refresh or reload the notifications page at any point during the run. Use back navigation only to return between threads.
+4. CRITICAL NON-NEGOTIABLE: close the `x.com` tab immediately after the run is complete.
+5. Open the notification by clicking it.
+6. Read the original post and the new reply together.
+7. Check whether the user's account has already responded in that branch.
+8. Decide whether the thread genuinely needs a reply.
+9. Draft the response before touching the reply box.
+10. Post only after the draft is thread-specific and concise.
+11. Return to the notifications list using the back button.
 
 ## What counts as reply-worthy
 

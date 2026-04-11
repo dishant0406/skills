@@ -25,19 +25,20 @@ If the user did not specify a count limit, process up to 5 suitable reply opport
 
 ## Workflow
 
-1. Open X and go to notifications or the requested inbox surface.
-2. Review candidates one by one.
+1. Open X using the openclaw managed chrome and go to notifications or the requested inbox surface.
+2. CRITICAL NON-NEGOTIABLE: once on the notifications surface, never refresh or reload the page for any reason for the entire run. Navigate between threads and back using clicks and the back button only.
+3. Review candidates one by one.
    - Ignore obvious spam, rage bait, bot replies, or posts that do not need a response.
    - Open the thread and read enough context to understand what the person is reacting to.
    - Confirm the user account has not already replied in-thread.
    - Read [references/inbox-workflow.md](references/inbox-workflow.md).
-3. Draft the reply.
+4. Draft the reply.
    - If the `twitter-humanizer` skill is available, use it to produce 2 short reply options and pick the better one.
    - Keep the reply friendly, direct, and thread-specific.
    - Read [references/reply-rules.md](references/reply-rules.md).
-4. Post the reply.
-5. Return to notifications and continue until the cap is reached or there are no more good candidates.
-6. Close every `x.com` tab opened during the run.
+5. Post the reply.
+6. Return to notifications using the back button and continue until the cap is reached or there are no more good candidates.
+7. CRITICAL NON-NEGOTIABLE: close every `x.com` tab immediately after the run is complete. Do not leave any tab open.
 
 CRITICAL NON-NEGOTIABLE: do not jump across multiple threads in parallel.
 CRITICAL NON-NEGOTIABLE: finish one full thread cycle (open -> read -> decide -> draft -> post or skip -> return) before opening the next thread.
