@@ -71,9 +71,13 @@ Save the file to `~/blog-meta/<seo_slug>.json` using this exact structure:
     "...",
     "...",
     "..."
-  ]
+  ],
+  "thumbnail_path": null
 }
 ```
+
+`thumbnail_path` is `null` when the JSON is first created by the blog-meta skill.
+It is updated to the exact absolute image path by the blog-image skill after generation.
 
 ## Validation before saving
 
@@ -87,5 +91,6 @@ Check every field against these before writing the file:
 - [ ] `seo_description` contains the primary keyword exactly once
 - [ ] `social_tips` has 2-4 items, each one sentence
 - [ ] `blog_path` is the correct absolute path to the source file
+- [ ] `thumbnail_path` is set to `null` (it will be filled in by the blog-image skill later)
 
 CRITICAL NON-NEGOTIABLE: do not save the file if any field fails validation. Fix it first.

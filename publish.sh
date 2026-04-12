@@ -21,6 +21,7 @@ SKILLS=(
   x-topic-tweet
   re-blog-writer
   re-blog-meta
+  re-blog-image
 )
 
 ERRORS=0

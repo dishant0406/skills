@@ -4,13 +4,14 @@ Personal skill pack for running high-quality, manual X (Twitter) workflows with 
 
 ## What this repository contains
 
-This repo includes five focused skills:
+This repo includes six focused skills:
 
 - `x-comment-feed-posts`: discover relevant posts in the X home feed and leave short, thread-specific comments.
 - `x-reply-unreplied`: process mentions/notifications and reply only where a response is actually needed.
 - `x-topic-tweet`: research a topic, draft one strong post, then publish with a short context pass.
 - `blog-writer`: research a subject using the browser, write a complete 1200-1500 word blog post in a casual-direct style, and save it as a .md file in ~/blogs.
 - `blog-meta`: generate SEO title, display title, description, slug, and social tips for a blog post and save as JSON in ~/blog-meta.
+- `blog-image`: generate a 1600px webp blog thumbnail using the nano-img CLI with a battle-tested prompt and save to ~/blog-images.
 
 Each skill has:
 
@@ -24,12 +25,16 @@ Each skill has:
 ├── README.md
 ├── version.txt
 ├── publish.sh
-├── blog-meta/
+├── re-blog-image/
+│   ├── SKILL.md
+│   └── references/
+│       └── image-generation.md
+├── re-blog-meta/
 │   ├── SKILL.md
 │   └── references/
 │       ├── meta-research.md
 │       └── meta-output.md
-├── blog-writer/
+├── re-blog-writer/
 │   ├── SKILL.md
 │   └── references/
 │       ├── research.md
@@ -163,6 +168,24 @@ Safety boundaries:
 
 - `blog-meta/references/meta-research.md`
 - `blog-meta/references/meta-output.md`
+
+---
+
+### 6) blog-image
+
+**Use when:** user provides a blog topic and wants a 1600px webp thumbnail generated and saved to ~/blog-images.
+
+**Key behavior:**
+
+- Requires `nano-img-cli` skill installed via `openclaw skill install nano-img-cli`.
+- Checks `nano-img` is available before running. Installs `nanobana` if missing.
+- Uses exact command: `nano-img generate -w 1600 -f webp --save-to ~/blog-images "<battle-tested prompt>"`.
+- Prompt text is fixed and never modified. Only `{TOPIC}` is substituted.
+- Reports output file path after generation.
+
+**Reference docs:**
+
+- `re-blog-image/references/image-generation.md`
 
 ## Standard run flow
 
