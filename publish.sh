@@ -19,7 +19,7 @@ SKILLS=(
   x-comment-feed-posts
   x-reply-unreplied
   x-topic-tweet
-  blog-writer
+  re-blog-writer
 )
 
 ERRORS=0
