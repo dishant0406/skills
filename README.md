@@ -177,7 +177,7 @@ Safety boundaries:
 
 **Key behavior:**
 
-- Requires `nano-img-cli` skill installed via `openclaw skill install nano-img-cli`.
+- Requires `nano-img-cli` skill installed via `openclaw skills install nano-img-cli`.
 - Checks `nano-img` is available before running. Installs `nanobana` if missing.
 - Uses exact command: `nano-img generate -w 1600 -f webp --save-to ~/blog-images "<battle-tested prompt>"`.
 - Prompt text is fixed and never modified. Only `{TOPIC}` is substituted.

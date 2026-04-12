@@ -12,7 +12,7 @@ CRITICAL NON-NEGOTIABLE: this skill depends on the `nano-img-cli` skill.
 Before running any command, verify it is installed:
 
 ```bash
-openclaw skill install nano-img-cli
+openclaw skills install nano-img-cli
 ```
 
 If the command `nano-img` is not available after that, stop and report the error.
