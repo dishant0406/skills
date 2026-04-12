@@ -4,11 +4,12 @@ Personal skill pack for running high-quality, manual X (Twitter) workflows with 
 
 ## What this repository contains
 
-This repo includes three focused skills:
+This repo includes four focused skills:
 
 - `x-comment-feed-posts`: discover relevant posts in the X home feed and leave short, thread-specific comments.
 - `x-reply-unreplied`: process mentions/notifications and reply only where a response is actually needed.
 - `x-topic-tweet`: research a topic, draft one strong post, then publish with a short context pass.
+- `blog-writer`: research a subject using the browser, write a complete 1200-1500 word blog post in a casual-direct style, and save it as a .md file in ~/blogs.
 
 Each skill has:
 
@@ -20,6 +21,14 @@ Each skill has:
 ```text
 .
 ├── README.md
+├── version.txt
+├── publish.sh
+├── blog-writer/
+│   ├── SKILL.md
+│   └── references/
+│       ├── research.md
+│       ├── writing-style.md
+│       └── structure.md
 ├── x-comment-feed-posts/
 │   ├── SKILL.md
 │   └── references/
@@ -107,6 +116,27 @@ Safety boundaries:
 
 - `x-topic-tweet/references/research-checklist.md`
 - `x-topic-tweet/references/post-workflow.md`
+
+---
+
+### 4) blog-writer
+
+**Use when:** user provides a subject and wants a complete blog post written and saved to ~/blogs.
+
+**Key behavior:**
+
+- Research using browser (Google, Reddit, Hacker News, official sources) before writing.
+- Never open with a day/time phrase. Start with a real-world fact or documented reaction.
+- 5-part structure: setup, deep dive, random break, real talk, ending.
+- Casual-direct style: short sentences, simple words, lowercase i, no em dashes, no clichés.
+- Target 1200-1500 words. Save as `~/blogs/<subject-slug>.md`.
+- Self-editing checklist must be run before saving.
+
+**Reference docs:**
+
+- `blog-writer/references/research.md`
+- `blog-writer/references/writing-style.md`
+- `blog-writer/references/structure.md`
 
 ## Standard run flow
 
