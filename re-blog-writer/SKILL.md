@@ -19,8 +19,10 @@ If the user did not provide a subject, ask for one before proceeding.
 ## Workflow
 
 1. Open the openclaw managed chrome.
-2. Research the subject thoroughly before writing a single word.
-   - Read [references/research.md](references/research.md).
+2. Research the subject thoroughly using that same Chrome window before writing a single word.
+   - Search Google, Reddit, and Hacker News directly in Chrome.
+   - Do not close Chrome between research and writing.
+   - Read [references/research.md](references/research.md) for the exact search order and what to collect.
 3. Take notes offline. Pull concrete facts, reactions, one surprising detail, one honest critique.
 4. Write the blog post following the 5-part structure exactly.
    - Read [references/structure.md](references/structure.md) for every part's requirements.

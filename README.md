@@ -4,12 +4,13 @@ Personal skill pack for running high-quality, manual X (Twitter) workflows with 
 
 ## What this repository contains
 
-This repo includes four focused skills:
+This repo includes five focused skills:
 
 - `x-comment-feed-posts`: discover relevant posts in the X home feed and leave short, thread-specific comments.
 - `x-reply-unreplied`: process mentions/notifications and reply only where a response is actually needed.
 - `x-topic-tweet`: research a topic, draft one strong post, then publish with a short context pass.
 - `blog-writer`: research a subject using the browser, write a complete 1200-1500 word blog post in a casual-direct style, and save it as a .md file in ~/blogs.
+- `blog-meta`: generate SEO title, display title, description, slug, and social tips for a blog post and save as JSON in ~/blog-meta.
 
 Each skill has:
 
@@ -23,6 +24,11 @@ Each skill has:
 ├── README.md
 ├── version.txt
 ├── publish.sh
+├── blog-meta/
+│   ├── SKILL.md
+│   └── references/
+│       ├── meta-research.md
+│       └── meta-output.md
 ├── blog-writer/
 │   ├── SKILL.md
 │   └── references/
@@ -137,6 +143,26 @@ Safety boundaries:
 - `blog-writer/references/research.md`
 - `blog-writer/references/writing-style.md`
 - `blog-writer/references/structure.md`
+
+---
+
+### 5) blog-meta
+
+**Use when:** user provides a blog name/slug, wants SEO metadata generated using researched best practices and trends, and wants the result saved as JSON in ~/blog-meta.
+
+**Key behavior:**
+
+- Read the blog file from `~/blogs/` first. Stop if not found.
+- Research Google, Google Trends, and Reddit before generating any field.
+- Generate five fields: display title, SEO title, SEO description, SEO slug, social tips.
+- Display title and SEO title must be different from each other.
+- All fields must pass character-length validation before saving.
+- Save to `~/blog-meta/<seo_slug>.json` with `blog_path` included in the JSON.
+
+**Reference docs:**
+
+- `blog-meta/references/meta-research.md`
+- `blog-meta/references/meta-output.md`
 
 ## Standard run flow
 

@@ -64,3 +64,10 @@ Run this before saving the file:
 - [ ] Confirm there are zero em dashes.
 - [ ] Confirm the post does not start with a day or time reference.
 - [ ] Word count is between 1200 and 1500.
+
+## Final test
+
+Read the finished post to someone who does not care about your topic.
+If they stay engaged and laugh or nod once, it is good.
+If they glaze over, find the dull paragraph and cut or rewrite it.
+CRITICAL NON-NEGOTIABLE: do not save the post until it passes this test.

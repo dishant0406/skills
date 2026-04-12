@@ -20,6 +20,7 @@ SKILLS=(
   x-reply-unreplied
   x-topic-tweet
   re-blog-writer
+  re-blog-meta
 )
 
 ERRORS=0
