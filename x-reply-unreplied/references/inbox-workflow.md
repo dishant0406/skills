@@ -12,9 +12,10 @@ Use this file while handling notifications or mentions.
 6. Read the original post and the new reply together.
 7. Check whether the user's account has already responded in that branch.
 8. Decide whether the thread genuinely needs a reply.
-9. Draft the response before touching the reply box.
-10. Post only after the draft is thread-specific and concise.
-11. Return to the notifications list using the back button.
+9. Like the post before touching the reply box.
+10. Draft the response before touching the reply box.
+11. Post only after the draft is thread-specific and concise.
+12. Return to the notifications list using the back button.
 
 ## What counts as reply-worthy
 

@@ -32,13 +32,14 @@ If the user did not specify a count limit, process up to 5 suitable reply opport
    - Open the thread and read enough context to understand what the person is reacting to.
    - Confirm the user account has not already replied in-thread.
    - Read [references/inbox-workflow.md](references/inbox-workflow.md).
-4. Draft the reply.
+4. Like the post before drafting or touching the reply box.
+5. Draft the reply.
    - If the `twitter-humanizer` skill is available, use it to produce 2 short reply options and pick the better one.
    - Keep the reply friendly, direct, and thread-specific.
    - Read [references/reply-rules.md](references/reply-rules.md).
-5. Post the reply.
-6. Return to notifications using the back button and continue until the cap is reached or there are no more good candidates.
-7. CRITICAL NON-NEGOTIABLE: close every `x.com` tab immediately after the run is complete. Do not leave any tab open.
+6. Post the reply.
+7. Return to notifications using the back button and continue until the cap is reached or there are no more good candidates.
+8. CRITICAL NON-NEGOTIABLE: close every `x.com` tab immediately after the run is complete. Do not leave any tab open.
 
 CRITICAL NON-NEGOTIABLE: do not jump across multiple threads in parallel.
 CRITICAL NON-NEGOTIABLE: finish one full thread cycle (open -> read -> decide -> draft -> post or skip -> return) before opening the next thread.

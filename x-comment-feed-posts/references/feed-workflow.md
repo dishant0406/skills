@@ -35,7 +35,7 @@ Skip posts that are:
 ## Cadence
 
 CRITICAL NON-NEGOTIABLE: do not pick all `N` posts first and then comment in a batch.
-CRITICAL NON-NEGOTIABLE: use strict sequence for every iteration: click post in feed -> read -> comment -> back button -> same feed state -> scroll -> click next post.
+CRITICAL NON-NEGOTIABLE: use strict sequence for every iteration: click post in feed -> read -> like -> comment -> back button -> same feed state -> scroll -> click next post.
 CRITICAL NON-NEGOTIABLE: do not keep multiple candidate posts open and hop between them.
 CRITICAL NON-NEGOTIABLE: never refresh or reload the feed at any point during the run, including between comment iterations. The only valid way to return to the feed is the back button.
 CRITICAL NON-NEGOTIABLE: after all `N` comments are done, close the `x.com` tab immediately. Do not leave it open.

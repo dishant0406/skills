@@ -49,6 +49,7 @@ CRITICAL: avoid consecutive comments on near-identical posts from the same narro
 3. For each chosen post:
    - Open the post by clicking it in the feed (never by typing/pasting a URL)
    - Read the post and enough surrounding context to understand the thread
+   - Like the post before doing anything else
    - Decide on one comment before typing
    - If the `twitter-humanizer` skill is available, use it to refine the comment without making it longer
    - Read [references/comment-rules.md](references/comment-rules.md).
