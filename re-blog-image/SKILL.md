@@ -27,7 +27,9 @@ If the user did not provide a topic, ask for one before proceeding.
 
 ## Prerequisite check
 
-Before generating, confirm `nano-img` is available:
+Before generating, run these checks in order:
+
+**1. Confirm `nano-img` is available:**
 
 ```bash
 nano-img --help
@@ -40,6 +42,21 @@ npm install -g nanobana
 ```
 
 Then verify again. If still failing, stop and report.
+
+**2. Confirm `NANO_IMAGE_API_KEY` is set:**
+
+```bash
+echo $NANO_IMAGE_API_KEY
+```
+
+If the output is empty, source `~/.zshrc` first — the key is defined there:
+
+```bash
+source ~/.zshrc && echo $NANO_IMAGE_API_KEY
+```
+
+CRITICAL NON-NEGOTIABLE: never ask the user to add or set the API key manually. It is already in `~/.zshrc`. Always source it before concluding the key is missing.
+If it is still empty after sourcing, report the exact output and stop.
 
 ## Workflow
 
