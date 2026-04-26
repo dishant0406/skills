@@ -18,10 +18,10 @@ If the user did not provide a subject, ask for one before proceeding.
 
 ## Workflow
 
-1. Open the openclaw managed chrome.
-2. Research the subject thoroughly using that same Chrome window before writing a single word.
-   - Search Google, Reddit, and Hacker News directly in Chrome.
-   - Do not close Chrome between research and writing.
+1. Run `openclaw browser start` to open the openclaw managed browser. CRITICAL NON-NEGOTIABLE: always use this command. Never open a browser any other way.
+2. Research the subject thoroughly using that same browser window before writing a single word.
+   - Search Google, Reddit, and Hacker News directly in that browser window.
+   - Do not close the browser between research and writing.
    - Read [references/research.md](references/research.md) for the exact search order and what to collect.
 3. Take notes offline. Pull concrete facts, reactions, one surprising detail, one honest critique.
 4. Write the blog post following the 5-part structure exactly.
@@ -31,10 +31,12 @@ If the user did not provide a subject, ask for one before proceeding.
 6. Save the final post to `~/blogs/<subject-slug>.md`.
    - Use a lowercase hyphenated slug. Example: `vector-databases.md`.
    - Create the `~/blogs/` directory if it does not exist.
+   - CRITICAL NON-NEGOTIABLE: do NOT include an `# H1` title at the top of the file. The post starts directly with the first sentence of Part 1. Title metadata is handled separately by the `re-blog-meta` skill.
 7. Close all browser tabs opened during research.
 
 ## Quality bar
 
+- CRITICAL NON-NEGOTIABLE: do NOT add an `# H1` title at the top of the post. Start the file directly with the first sentence of Part 1. Title is handled by the `re-blog-meta` skill.
 - CRITICAL NON-NEGOTIABLE: target 1200-1500 words. If short, add a mini-story. If long, cut any paragraph that feels like a list.
 - CRITICAL NON-NEGOTIABLE: no em dashes anywhere in the post.
 - CRITICAL NON-NEGOTIABLE: no clichés. See the banned words list in writing-style.md.

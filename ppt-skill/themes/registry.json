@@ -1,0 +1,117 @@
+{
+  "defaultThemeId": "ink-classic",
+  "themes": [
+    {
+      "id": "ink-classic",
+      "name": "Ink Classic",
+      "bestFor": "general presentations, business launches, safe default",
+      "tone": "pure ink black and warm off-white, strongest magazine feel",
+      "tokens": {
+        "--ink": "#0a0a0b",
+        "--ink-rgb": "10,10,11",
+        "--paper": "#f1efea",
+        "--paper-rgb": "241,239,234",
+        "--paper-tint": "#e8e5de",
+        "--ink-tint": "#18181a"
+      }
+    },
+    {
+      "id": "indigo-porcelain",
+      "name": "Indigo Porcelain",
+      "bestFor": "tech, research, data-heavy talks, engineering culture",
+      "tone": "deep indigo and porcelain white, calm and analytical",
+      "tokens": {
+        "--ink": "#0a1f3d",
+        "--ink-rgb": "10,31,61",
+        "--paper": "#f1f3f5",
+        "--paper-rgb": "241,243,245",
+        "--paper-tint": "#e4e8ec",
+        "--ink-tint": "#152a4a"
+      }
+    },
+    {
+      "id": "forest-ink",
+      "name": "Forest Ink",
+      "bestFor": "nature, sustainability, culture, non-fiction topics",
+      "tone": "deep forest green and ivory, grounded and calm",
+      "tokens": {
+        "--ink": "#1a2e1f",
+        "--ink-rgb": "26,46,31",
+        "--paper": "#f5f1e8",
+        "--paper-rgb": "245,241,232",
+        "--paper-tint": "#ece7da",
+        "--ink-tint": "#253d2c"
+      }
+    },
+    {
+      "id": "kraft-paper",
+      "name": "Kraft Paper",
+      "bestFor": "nostalgic, humanist, literary, indie-magazine moods",
+      "tone": "deep brown and warm beige, notebook and envelope texture",
+      "tokens": {
+        "--ink": "#2a1e13",
+        "--ink-rgb": "42,30,19",
+        "--paper": "#eedfc7",
+        "--paper-rgb": "238,223,199",
+        "--paper-tint": "#e0d0b6",
+        "--ink-tint": "#3a2a1d"
+      }
+    },
+    {
+      "id": "dune",
+      "name": "Dune",
+      "bestFor": "art, design, creative showcases, gallery-style decks",
+      "tone": "charcoal and sand, restrained and premium",
+      "tokens": {
+        "--ink": "#1f1a14",
+        "--ink-rgb": "31,26,20",
+        "--paper": "#f0e6d2",
+        "--paper-rgb": "240,230,210",
+        "--paper-tint": "#e3d7bf",
+        "--ink-tint": "#2d2620"
+      }
+    },
+    {
+      "id": "sidewalk-chilling",
+      "name": "Sidewalk Chilling",
+      "bestFor": "friendly product updates, lifestyle decks, light editorial presentations",
+      "tone": "soft sky blue with warm yellow and earthy olive accents",
+      "tokens": {
+        "--ink": "#7e7768",
+        "--ink-rgb": "126,119,104",
+        "--paper": "#d2eaf1",
+        "--paper-rgb": "210,234,241",
+        "--paper-tint": "#fdd365",
+        "--ink-tint": "#867e32"
+      }
+    },
+    {
+      "id": "through-the-window",
+      "name": "Through the Window",
+      "bestFor": "strategy decks, research updates, understated keynote themes",
+      "tone": "charcoal and taupe neutrals with olive undertones",
+      "tokens": {
+        "--ink": "#323530",
+        "--ink-rgb": "50,53,48",
+        "--paper": "#e3d6ca",
+        "--paper-rgb": "227,214,202",
+        "--paper-tint": "#d5c8bc",
+        "--ink-tint": "#595421"
+      }
+    },
+    {
+      "id": "italian-leather",
+      "name": "Italian Leather",
+      "bestFor": "brand storytelling, heritage narratives, premium case studies",
+      "tone": "warm leather browns with terracotta accents",
+      "tokens": {
+        "--ink": "#785e4c",
+        "--ink-rgb": "120,94,76",
+        "--paper": "#d4c3ac",
+        "--paper-rgb": "212,195,172",
+        "--paper-tint": "#c7b59e",
+        "--ink-tint": "#867e32"
+      }
+    }
+  ]
+}
